@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <style>
+#m{
+    width: 100%;
+    max-width: 100%;
+
+}
+
+#m p{
+width: 97%;
+padding: 14px;
+background: red;
+border-radius: 14px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: large;
+color: cornsilk;
+text-align: center;
+
+}
+
+#m textarea{
+ width: 99%;
+min-height: 150px;
+border: orangered solid 2px;
+border-radius: 14px;
+outline: none;
+font-size: 30px;
+}
+#m select{
+
+width: 100%;
+background-color: blue;
+border-radius: 14px;
+font-size: 20px;
+border: rgb(207, 42, 212) solid 1px;
+color: white;
+padding: 14px;
+
+}
+
+    </style>
+</head>
+<body>
+    
+<main id="m">
+    <select id="c">
+        <option value="encode">Encode</option>
+        <option value="decode">Decode</option>
+    </select>
+<p >Text</p>
+<textarea  id="a" ></textarea>
+
+<p >Result</p>
+<textarea id="b"></textarea>
+
+</main>
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
